@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const Form = styled.form`
     width: 80%;
-    height: 100%;
     padding: 50px 0;
 
     display: flex;
@@ -32,6 +31,7 @@ const Input = styled.input`
     background-color: #f8f8f8;
     border: 2px solid #f8f8f8;
     padding: 0 14px;
+    margin: 0 4px;
     border-radius: 4px;
 `;
 
@@ -40,9 +40,10 @@ const TextAreaInput = styled.input`
 
 const InputBox = styled.div`
     width: 100%;
-    height: 120px;
+    padding: 4px;
 
-    padding: 12px;
+    display: flex;
+    align-items: center;
 `;
 
 const Link = styled.span`
@@ -55,7 +56,7 @@ const Link = styled.span`
     transition: all 0.2s ease;
     
     &:hover {
-        color: #aa2222;
+        color: #ffd700;
     }
 `;
 
