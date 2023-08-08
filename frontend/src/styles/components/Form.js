@@ -25,16 +25,6 @@ const ButtonForm = styled.button`
     }
 `;
 
-const Input = styled.input`
-    width: 100%;
-    height: 40px;
-    background-color: #f8f8f8;
-    border: 2px solid #f8f8f8;
-    padding: 0 14px;
-    margin: 0 4px;
-    border-radius: 4px;
-`;
-
 const TextAreaInput = styled.input`
 `;
 
@@ -63,7 +53,6 @@ const Link = styled.span`
 export {
     Form,
     ButtonForm,
-    Input,
     TextAreaInput,
     InputBox,
     Link

@@ -3,3 +3,7 @@ export * from './Button';
 export * from './Embed';
 export * from './Form';
 export * from './Texts';
+export * from './Header';
+export * from './Nav';
+export * from './Icon';
+export * from './Input';
