@@ -6,16 +6,11 @@ import { useEffect, useState, useRef } from "react";
 import { styled } from "styled-components";
 
 function Play() {
-    const [movie, setMovie] = useState({
-        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/O+Amor+Mandou+Mensagem.mp4",
-        name: "Nimona",
-        folder: "https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-w8P7rcjEqVZ5U35WPO9x5aXl1DOFyr00FN2uq10MREDyRPWodWro3vAjY-qft-dC8kE3X4UgNI-Zm56GqdDP2SvyW8DQ=w1850-h976",
-        time: "1 hora 42 minutos 45 segundos"
-    });
+    const [movie, setMovie] = useState({});
     const { name } = useParams();
     
     useEffect(() => {
-        // setMovie(takePlay(name))
+        setMovie(takePlay(name))
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
