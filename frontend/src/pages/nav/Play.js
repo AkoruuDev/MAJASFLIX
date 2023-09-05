@@ -10,11 +10,13 @@ function Play() {
     const { name } = useParams();
     
     useEffect(() => {
-        setMovie(takePlay(name))
+        setMovie(takePlay(name, "movies"))
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     console.log(movie.link)
+
+    if (movie.link === undefined) return (<>loading</>)
 
     return (
         <Container>
@@ -53,7 +55,7 @@ const Film = styled.div`
 
 const CustomVideo = ({ videoSource }) => {
     const videoRef = useRef(null);
-    const [isPlaying, setIsPlaying] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(true);
     const [isMuted, setIsMuted] = useState(false);
 
     const togglePlayPause = () => {
@@ -72,12 +74,12 @@ const CustomVideo = ({ videoSource }) => {
 
     return (
         <Film>
-            <Video ref={videoRef} autoPlay>
+            <Video ref={videoRef} autoPlay >
                 <source src={videoSource} type="video/mp4" />
             </Video>
             <ControlHover>
                 <Controls>
-                    <Button onClick={togglePlayPause}>{isPlaying ? 'Play' : 'Pause'}</Button>
+                    <Button onClick={togglePlayPause}>{!isPlaying ? 'Play' : 'Pause'}</Button>
                     <Button onClick={toggleMute}>{isMuted ? 'Unmute' : 'Mute'}</Button>
                 </Controls>
             </ControlHover>
