@@ -53,14 +53,9 @@ const movies = [
         launch: "2023",
         sinopse: "Acusado de um crime trágico, um cavaleiro pede ajuda a uma adolescente para conseguir provar sua inocência. Mas o que acontecerá se ela for o monstro que ele jurou matar?",
         genre: ["Animação", "Aventura", "Fantasia"] // fantasia, aventura, animação, terror, romance, etc...
-    }
-];
-
-const series = [
-    {
+    },{
         name: "Smallville",
-        lauch: "2001",
-        folder: "https://drive.google.com/file/d/1_H1eDOf1PJp6Wx6lPTXd8Eco9GFDzXc9/view?usp=drive_link",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/smallville.jpg",
         type: "serie", // film, serie
         launch: "2001",
         sinopse: "Baseada no personagem Superman da DC Comics, criado por Jerry Siegel e Joe Shuster, a série conta a história de Clark Kent (Tom Welling), um adolescente quase comum, se não fosse por seus poderes especiais. A série mostra como seria a vida do Super Homem se ele tivesse caído na Terra nos tempos atuais, fazendo uma mistura da modernidade do século XXI e elementos antigos já conhecidos pela história do homem de aço.",
@@ -220,7 +215,153 @@ const series = [
                 ]
             }
         ]
-    }
+    },{
+        name: "One Piece: A Serie",
+        launch: "2023",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/One+Piece%3A+A+Serie.jpg",
+        type: "serie",
+        sinopse: "O jovem pirata Monkey D. Luffy veste o chapéu de palha e, com sua tripulação atrapalhada, zarpa em uma jornada épica nesta adaptação em live-action do popular mangá.",
+        genre: ["Anime", "Ação", "Aventura"],
+        seasons: [
+            {
+                season: 1,
+                chapters: [
+                    {
+                        chapter: 1,
+                        name: "Capitulo 1",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e01.mkv",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 2,
+                        name: "Capitulo 2",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e02.mkv",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 3,
+                        name: "Capitulo 3",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e03.mkv",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 4,
+                        name: "Capitulo 4",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e04.mkv",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 5,
+                        name: "Capitulo 5",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e05.mkv",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 6,
+                        name: "Capitulo 6",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e06.mkv",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 7,
+                        name: "Capitulo 7",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e07.mkv",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 8,
+                        name: "Capitulo 8",
+                        link: {
+                            dub: "https://mflixapi.s3.sa-east-1.amazonaws.com/series/One+Piece%3A+A+serie/s01e08.mkv",
+                            leg: ""
+                        }
+                    }
+                ]
+            }
+        ]
+    }/* ,{
+        name: "",
+        launch: "",
+        folder: "",
+        type: "",
+        sinopse: "",
+        genre: [],
+        seasons: [
+            {
+                season: 1,
+                chapters: [
+                    {
+                        chapter: 1,
+                        name: "Capitulo 1",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 2,
+                        name: "Capitulo 2",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 3,
+                        name: "Capitulo 4",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 4,
+                        name: "Capitulo 4",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 5,
+                        name: "Capitulo 5",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 6,
+                        name: "Capitulo 6",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 7,
+                        name: "Capitulo 7",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    },{
+                        chapter: 8,
+                        name: "Capitulo 8",
+                        link: {
+                            dub: "",
+                            leg: ""
+                        }
+                    }
+                ]
+            }
+        ]
+    } */
+];
+
+const series = [
+    
 ];
 
 const cinema = { movies, series }
