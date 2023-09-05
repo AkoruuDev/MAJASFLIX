@@ -1,4 +1,4 @@
-const movies = [
+const cinema = [
     {
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Atlantis%3A+O+Reino+Perdido.mp4",
         name: "Atlantis: O reino perdido",
@@ -41,7 +41,7 @@ const movies = [
         folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/transformes+-+o+despertar+das+feras.jpg",
         type: "movie", // film, serie
         time: "2 horas e 8 minutos",
-        launch: "20023",
+        launch: "2023",
         sinopse: "Transformers: O Despertar das Feras traz mais uma aventura épica pelo universo dos Transformers. Ambientada nos anos 1990, o filme levará o público a uma aventura global cheia de ação, enquanto os Maximals, Predacons e Terrorcons se juntam à batalha entre os Autobots e Decepticons na Terra. Noah (Anthony Ramos), um jovem astuto do Brooklyn, e Elena (Dominique Fishback), uma ambiciosa e talentosa pesquisadora de artefatos, são arrastados para o conflito enquanto Optimus Prime e os Autobots enfrentam o terrível novo inimigo empenhado em sua destruição chamado Scourge. O filme é a sétima parcela da série de filmes Transformers, servindo como uma sequência autônoma de Bumblebee (2018) e prequela de 2007, Transformers - O Filme. Supostamente baseado no spinoff de Beast Wars: Transformers, que apresentava robôs que se transformam em animais robóticos. A série de animação para TV foi exibida no Brasil nos anos 1990, reinventando a saga dos Autobots e Decepticons.",
         genre: ["Ação", "Ficção científica"] // fantasia, aventura, animação, terror, romance, etc...
     },{
@@ -359,12 +359,6 @@ const movies = [
         ]
     } */
 ];
-
-const series = [
-    
-];
-
-const cinema = { movies, series }
 
 export {
     cinema

@@ -4,20 +4,20 @@ const BASE_URL = cinema;
 
 function takePlay(name, type) {
     let promise = 'já vai'
-    console.log(BASE_URL[type])
-    for (let i = 0; i < BASE_URL[type].length; i++) {
-        if (BASE_URL.movies[i].name === name) promise = BASE_URL.movies[i]
+    console.log(BASE_URL)
+    for (let i = 0; i < BASE_URL.length; i++) {
+        if (BASE_URL[i].name === name) promise = BASE_URL[i]
     }
     /*  BASE_URL.movies[0][type].forEach(element => {
         // if (element.name === name) return element
         console.log(element)
     }); */
-    console.log(promise)
+    console.log("A promise é " + promise)
     return promise; 
 }
 
 function takeAllMovie() {
-    const promise = cinema.movies;
+    const promise = cinema;
 
     return promise;
 }
