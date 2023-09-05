@@ -5,13 +5,11 @@ import { styled } from "styled-components";
 import { Embed_icon, Embed_title, Embed_titleBox, Embed_button, Embed_buuttonBox } from "../../styles/components";
 import { CiPlay1 } from 'react-icons/ci';
 import { IoAddCircleOutline } from 'react-icons/io5'
-import { AiOutlineHeart, AiFillHeart } from 'react-icons/ai';
 import { BsCheckCircleFill } from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom';
 import { takeAllMovie } from "../../database/api";
 
 function Movie() {
-    const [gen, setGen] = useState([1, 1]);
     const [movies, setMovies] = useState([{}]);
     const [more, setMore] = useState(false);
     const [list, setList] = useState(false);
@@ -49,7 +47,7 @@ function Movie() {
                                 <BsCheckCircleFill />} <span>lista</span>
                             </Embed_button>{/* Adicionar à lista */}
                         </Embed_buuttonBox>
-                        <Time>{movie.time}</Time>
+                        <Time>{movie.type} {movie.time !== undefined ? ` • ${movie.time}`: ""}</Time>
                         <Genre>
                             {movie.genre?.map((e, i) => {
                                 if (i === 0) return <span>{e}</span>
