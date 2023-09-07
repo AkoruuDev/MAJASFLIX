@@ -62,6 +62,15 @@ const cinema = [
         launch: "1997",
         sinopse: "Sean Archer (John Travolta), um agente especial do FBI, vê seu filho ser morto por balas destinadas a ele, disparadas por Castor Troy (Nicolas Cage), um terrorista psicopata. Por seis anos o agente tentou capturá-lo e, quando consegue, descobre que uma grande explosão está para acontecer em Los Angeles por obra do criminoso, que, logo depois, devido a um acidente, entra em coma profundo. Assim, Sean Archer, utilizando uma técnica revolucionária, troca de rosto com Castor Troy, para conseguir com o irmão (Alessandro Nivola) deste a localização da bomba. Mas o criminoso sai do coma, e agora ele tem o rosto do agente do FBI Sean Archer.",
         genre: ["Suspense"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Assassin's.Creed+-+2017.mkv",
+        name: "Assassin's Creed",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Assassin's+Creed.jpg",
+        type: "movie", // film, serie
+        time: "01 hora 56 minutos",
+        launch: "2017",
+        sinopse: "Callum Lynch (Michael Fassbender) descobre que é descendente de um membro da Ordem dos Assassinos e, via memória genética, revive as aventuras do guerreiro Aguilar, seu ancestral espanhol do século XV. Dotado de novos conhecimentos e incríveis habilidades, ele volta aos dias de hoje pronto para enfrentar os Templários. Versão para as telonas do game Assassin's Creed.",
+        genre: ["Ação", "Ficção Científica"] // fantasia, aventura, animação, terror, romance, etc...
     }/* ,{
         link: "",
         name: "",
