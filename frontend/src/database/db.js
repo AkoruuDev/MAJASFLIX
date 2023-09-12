@@ -153,6 +153,15 @@ const cinema = [
         sinopse: "No terceiro filme da saga, Thomas (Dylan O' Brien) embarca em uma missão para encontrar a cura para uma doença mortal e descobre que os planos da C.R.U.E.L podem trazer consequências catastróficas para a humanidade. Agora, ele tem que decidir se vai se entregar para a C.R.U.E.L e confiar na promessa da organização de que esse será seu último experimento.",
         genre: ["Ação", "Ficção Científica"] // fantasia, aventura, animação, terror, romance, etc...
     },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/O+Mestre+Invenc%C3%ADvel+(1978).mp4",
+        name: "O mestre invencível",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/O+mestre+invenc%C3%ADvel.jpeg",
+        type: "movie", // film, serie
+        time: "01 hora 35 minutos",
+        launch: "1978",
+        sinopse: "Em O Mestre Invencível, Won Fei Hung (Jackie Chan), um jovem desobediente, segue dando desonra ao seu pai, um mestre de uma escola de artes marciais. Assim, o homem envia seu filho para aprender a disciplina necessária para se tornar um mestre do Kung Fu com seu irmão. Porém o tio do rapaz é um homem sádico que tem a reputação de agredir seus alunos. E tem uma maneira bastante peculiar de lutar Kung Fu.",
+        genre: ["Artes Marciais", "Comédia", "Ação"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Da+Magia+a+Sedu%C3%A7%C3%A1o.mp4",
         name: "Da magia a sedução",
         folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Da+magia+a+sedu%C3%A7%C3%A3o.jpg",
