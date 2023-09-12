@@ -162,6 +162,15 @@ const cinema = [
         sinopse: "Em O Mestre Invencível, Won Fei Hung (Jackie Chan), um jovem desobediente, segue dando desonra ao seu pai, um mestre de uma escola de artes marciais. Assim, o homem envia seu filho para aprender a disciplina necessária para se tornar um mestre do Kung Fu com seu irmão. Porém o tio do rapaz é um homem sádico que tem a reputação de agredir seus alunos. E tem uma maneira bastante peculiar de lutar Kung Fu.",
         genre: ["Artes Marciais", "Comédia", "Ação"] // fantasia, aventura, animação, terror, romance, etc...
     },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/O+Quinto+elemento.mp4",
+        name: "O quinto elemento",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/O+quinto+elemento.jpg",
+        type: "movie", // film, serie
+        time: "02 horas 06 minutos",
+        launch: "1997",
+        sinopse: "No século XXIII, um motorista de taxi (Bruce Willis) de Nova York se envolve em uma aventura na qual tem de deter um ser demoníaco que percorre a galáxia a cada 5000 anos. Se nada for feito a Terra será destruída, mas para isto ele precisa encontrar 4 pedras antigas, que representam os elementos, e colocá-las em volta de uma bela mulher (Milla Jovovich), que é o quinto elemento.",
+        genre: ["Ficção Científica", "Ação"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Da+Magia+a+Sedu%C3%A7%C3%A1o.mp4",
         name: "Da magia a sedução",
         folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Da+magia+a+sedu%C3%A7%C3%A3o.jpg",
