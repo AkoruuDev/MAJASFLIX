@@ -135,6 +135,15 @@ const cinema = [
         sinopse: "Em um mundo pós-apocalíptico, o jovem Thomas (Dylan O'Brien) é abandonado em uma comunidade isolada formada por garotos após toda sua memória ter sido apagada. Logo ele se vê preso em um labirinto, onde será preciso unir forças com outros jovens para que consiga escapar.",
         genre: ["Ação", "Ficção Científica"] // fantasia, aventura, animação, terror, romance, etc...
     },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Maze+Runner+-+Prova+de+Fogo.mkv",
+        name: "Maze Runner 2: Prova de fogo",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Maze+runner%3A+Prova+de+fogo.jpeg",
+        type: "movie", // film, serie
+        time: "02 horas 13 minutos",
+        launch: "2015",
+        sinopse: "Após escapar do labirinto, Thomas (Dylan O'Brien) e os garotos que o acompanharam em sua fuga da Clareira precisam agora lidar com uma realidade bem diferente: a superfície da Terra foi queimada pelo sol e eles precisam lidar com criaturas disformes chamadas Cranks, que desejam devorá-los vivos.",
+        genre: ["Ação", "Ficção Científica"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Da+Magia+a+Sedu%C3%A7%C3%A1o.mp4",
         name: "Da magia a sedução",
         folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Da+magia+a+sedu%C3%A7%C3%A3o.jpg",
