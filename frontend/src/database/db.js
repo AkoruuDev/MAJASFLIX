@@ -83,12 +83,21 @@ const cinema = [
     },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Homem+Aranha+atrav%C3%A9+do+aranhaverso.mkv",
         name: "Homem Aranha através do aranhaverso",
-        folder: "//https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Homem+aranha+atraves+do+aranhaverso.jpg",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Homem+aranha+atraves+do+aranhaverso.jpg",
         type: "movie", // film, serie
         time: "02 horas 21 minutos",
         launch: "2023",
         sinopse: "Homem-Aranha: Através do Aranhaverso, é a continuação do vencedor do Oscar Homem-Aranha: No Aranhaverso, de 2018, que acompanha Miles Morales (Shameik Moore), o simpático Homem-Aranha do Brooklyn. Neste novo capítulo, Miles está de volta para uma nova missão em sua agitada vida como super herói. No novo filme, Morales é transportado para uma aventura épica através do multiverso, e deve unir forças com a mulher-aranha Gwen Stacy (Hailee Steinfeld) e um novo time de Pessoas-Aranha, formado por heróis de diversas dimensões. No entanto, tudo muda quando os heróis entram em conflito sobre como lidar com uma nova ameaça, e Miles se vê em um impasse. E para piorar ainda mais a situação, eles precisam enfrentar um vilão muito mais poderoso do que qualquer coisa que já tenham encontrado antes. Agora, para salvar as pessoas que ele mais ama no mundo, Miles deve redefinir o que significa ser um super herói.",
         genre: ["Animação", "Ação", "Aventura", "Fantasia"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Idependence+day.mp4",
+        name: "Independence day",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Idependence+day.jpg",
+        type: "movie", // film, serie
+        time: "02 horas 25 minutos",
+        launch: "1996",
+        sinopse: "No dia 2 de julho os sistemas de comunicação do mundo inteiro se transformam em um caos, devido à uma estranha interferência atmosférica. Logo se descobre que enormes objetos estão em curso de colisão com a Terra. Inicialmente imagina-se que se tratam de meteoros, mas logo revela-se ser na verdade uma imensa nave espacial pilotada por alienígenas. Após frustradas tentativas de se comunicar com os extra-terrestres, um técnico em comunicação descobre que os seres do espaços estão usando os satélites terrestres para se comunicarem e iniciarem em menos de um dia um ataque conjunto nas principais cidades do planeta. No dia 3 de julho o ataque alienígena começa de forma esmagadora e nem armas nucleares conseguem destruir a blindagem protetora. Mas no dia 4 de julho surge uma possibilidade de vencer o invasor e nesta hora todas as nações precisam se unir, pois está em jogo a existência da raça humana.",
+        genre: ["Ficção Científica", "Ação", "Suspense"] // fantasia, aventura, animação, terror, romance, etc...
     },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Da+Magia+a+Sedu%C3%A7%C3%A1o.mp4",
         name: "Da magia a sedução",
