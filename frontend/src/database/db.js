@@ -144,6 +144,15 @@ const cinema = [
         sinopse: "Após escapar do labirinto, Thomas (Dylan O'Brien) e os garotos que o acompanharam em sua fuga da Clareira precisam agora lidar com uma realidade bem diferente: a superfície da Terra foi queimada pelo sol e eles precisam lidar com criaturas disformes chamadas Cranks, que desejam devorá-los vivos.",
         genre: ["Ação", "Ficção Científica"] // fantasia, aventura, animação, terror, romance, etc...
     },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Maze+Runner+-+A+cura+mortal.mkv",
+        name: "Maze Runner 3: A cura mortal",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Maze+Runner%3A+A+cura+mortal.jpg",
+        type: "movie", // film, serie
+        time: "02 horas 22 minutos",
+        launch: "2018",
+        sinopse: "No terceiro filme da saga, Thomas (Dylan O' Brien) embarca em uma missão para encontrar a cura para uma doença mortal e descobre que os planos da C.R.U.E.L podem trazer consequências catastróficas para a humanidade. Agora, ele tem que decidir se vai se entregar para a C.R.U.E.L e confiar na promessa da organização de que esse será seu último experimento.",
+        genre: ["Ação", "Ficção Científica"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Da+Magia+a+Sedu%C3%A7%C3%A1o.mp4",
         name: "Da magia a sedução",
         folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Da+magia+a+sedu%C3%A7%C3%A3o.jpg",
