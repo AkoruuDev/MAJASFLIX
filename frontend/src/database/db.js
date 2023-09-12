@@ -99,6 +99,15 @@ const cinema = [
         sinopse: "No dia 2 de julho os sistemas de comunicação do mundo inteiro se transformam em um caos, devido à uma estranha interferência atmosférica. Logo se descobre que enormes objetos estão em curso de colisão com a Terra. Inicialmente imagina-se que se tratam de meteoros, mas logo revela-se ser na verdade uma imensa nave espacial pilotada por alienígenas. Após frustradas tentativas de se comunicar com os extra-terrestres, um técnico em comunicação descobre que os seres do espaços estão usando os satélites terrestres para se comunicarem e iniciarem em menos de um dia um ataque conjunto nas principais cidades do planeta. No dia 3 de julho o ataque alienígena começa de forma esmagadora e nem armas nucleares conseguem destruir a blindagem protetora. Mas no dia 4 de julho surge uma possibilidade de vencer o invasor e nesta hora todas as nações precisam se unir, pois está em jogo a existência da raça humana.",
         genre: ["Ficção Científica", "Ação", "Suspense"] // fantasia, aventura, animação, terror, romance, etc...
     },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Jogador+numero+1.mp4",
+        name: "Jogador número um",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Jogador+numero+um.jpg",
+        type: "movie", // film, serie
+        time: "02 horas 20 minutos",
+        launch: "2018",
+        sinopse: "Num futuro distópico, em 2044, Wade Watts (Tye Sheridan), como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. Quando o criador do jogo, o excêntrico James Halliday (Mark Rylance) morre, os jogadores devem descobrir a chave de um quebra-cabeça diabólico para conquistar sua fortuna inestimável. Para vencer, porém, Watts terá de abandonar a existência virtual e ceder a uma vida de amor e realidade da qual sempre tentou fugir.",
+        genre: ["Ficção Científica", "Ação"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Da+Magia+a+Sedu%C3%A7%C3%A1o.mp4",
         name: "Da magia a sedução",
         folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Da+magia+a+sedu%C3%A7%C3%A3o.jpg",
