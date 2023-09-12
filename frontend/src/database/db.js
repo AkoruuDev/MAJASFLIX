@@ -108,6 +108,15 @@ const cinema = [
         sinopse: "Num futuro distópico, em 2044, Wade Watts (Tye Sheridan), como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. Quando o criador do jogo, o excêntrico James Halliday (Mark Rylance) morre, os jogadores devem descobrir a chave de um quebra-cabeça diabólico para conquistar sua fortuna inestimável. Para vencer, porém, Watts terá de abandonar a existência virtual e ceder a uma vida de amor e realidade da qual sempre tentou fugir.",
         genre: ["Ficção Científica", "Ação"] // fantasia, aventura, animação, terror, romance, etc...
     },{
+        link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/John+Wick+-+Um+Novo+Dia+Para+Matar.mkv",
+        name: "John Wick 2: Um novo dia para matar",
+        folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Jhon+Wick+2%3A+Um+novo+dia+para+matar.jpeg",
+        type: "movie", // film, serie
+        time: "02 horas 03 minutos",
+        launch: "2017",
+        sinopse: "Após recuperar seu carro, John Wick (Keanu Reeves) acredita que enfim poderá se aposentar. Entretanto, a reaparição de Santino D'Antonio (Riccardo Scarmacio) atrapalha seus planos. Dono de uma promissória em nome de Wick, por ele usada para deixar o posto de assassino profissional da Alta Cúpula, Santino cobra a dívida existente e insiste para que ele mate sua própria irmã, Gianna (Claudia Gerini).",
+        genre: ["Ação", "Suspense"] // fantasia, aventura, animação, terror, romance, etc...
+    },{
         link: "https://mflixapi.s3.sa-east-1.amazonaws.com/filmes/Da+Magia+a+Sedu%C3%A7%C3%A1o.mp4",
         name: "Da magia a sedução",
         folder: "https://mflixapi.s3.sa-east-1.amazonaws.com/folders/Da+magia+a+sedu%C3%A7%C3%A3o.jpg",
